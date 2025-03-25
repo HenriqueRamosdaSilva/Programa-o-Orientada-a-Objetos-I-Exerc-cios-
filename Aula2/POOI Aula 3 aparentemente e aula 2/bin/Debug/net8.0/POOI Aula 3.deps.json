@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "POOI Aula 3/1.0.0": {
+        "runtime": {
+          "POOI Aula 3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POOI Aula 3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
