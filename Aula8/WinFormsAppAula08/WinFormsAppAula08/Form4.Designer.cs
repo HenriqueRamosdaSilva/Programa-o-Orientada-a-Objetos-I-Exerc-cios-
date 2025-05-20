@@ -1,6 +1,6 @@
 ﻿namespace WinFormsAppAula08
 {
-    partial class Form2
+    partial class Produtos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,33 +29,47 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            panel1 = new Panel();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 32F);
-            label1.Location = new Point(294, 9);
+            label1.Location = new Point(291, 7);
             label1.Name = "label1";
-            label1.Size = new Size(173, 59);
-            label1.TabIndex = 2;
-            label1.Text = "Clientes";
+            label1.Size = new Size(196, 59);
+            label1.TabIndex = 0;
+            label1.Text = "Produtos";
             label1.Click += label1_Click;
             // 
-            // Form2
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(1, 2);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(798, 93);
+            panel1.TabIndex = 1;
+            // 
+            // Produtos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label1);
-            Name = "Form2";
-            Text = "sss";
+            Controls.Add(panel1);
+            Name = "Produtos";
+            Text = "Produtos";
+            Load += Form4_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Label label1;
+        private Panel panel1;
     }
 }

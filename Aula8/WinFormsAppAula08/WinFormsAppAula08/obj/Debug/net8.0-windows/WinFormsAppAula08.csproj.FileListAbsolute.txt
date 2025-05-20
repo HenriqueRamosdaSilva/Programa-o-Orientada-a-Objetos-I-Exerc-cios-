@@ -16,3 +16,5 @@ C:\Users\alunolab\Documents\POO1\Aula8\WinFormsAppAula08\WinFormsAppAula08\obj\D
 C:\Users\alunolab\Documents\POO1\Aula8\WinFormsAppAula08\WinFormsAppAula08\obj\Debug\net8.0-windows\WinFormsAppAula08.genruntimeconfig.cache
 C:\Users\alunolab\Documents\POO1\Aula8\WinFormsAppAula08\WinFormsAppAula08\obj\Debug\net8.0-windows\ref\WinFormsAppAula08.dll
 C:\Users\alunolab\Documents\POO1\Aula8\WinFormsAppAula08\WinFormsAppAula08\obj\Debug\net8.0-windows\WinFormsAppAula08.Form2.resources
+C:\Users\alunolab\Documents\POO1\Aula8\WinFormsAppAula08\WinFormsAppAula08\obj\Debug\net8.0-windows\WinFormsAppAula08.Form3.resources
+C:\Users\alunolab\Documents\POO1\Aula8\WinFormsAppAula08\WinFormsAppAula08\obj\Debug\net8.0-windows\WinFormsAppAula08.Produtos.resources

@@ -21,7 +21,7 @@ namespace WinFormsAppAula08
 
         private void Form1_Load(object sender, EventArgs e)
         {
-         
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -56,9 +56,34 @@ namespace WinFormsAppAula08
                 SendMessage(this.Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-        private void AbrirFormNoPanel<Forms>()where Forms : Form, new()
+
+        private void btnRestaurar_Click(object sender, EventArgs e)
         {
-            Form formulario = new Form();
+            this.WindowState = FormWindowState.Normal;
+
+            btnMaximizar.Visible = true;
+        }
+
+        private void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnRestaurar.Visible = true;
+
+        }
+
+        private void Vendas_Click(object sender, EventArgs e)
+        {
+            AbrirFormNoPanel<Form3>();
+        }
+
+        private void Produtos_Click(object sender, EventArgs e)
+        {
+            AbrirFormNoPanel<Produtos>();
+        }
+
+        private void AbrirFormNoPanel<Forms>() where Forms : Form, new()
+        {
+            Form formulario = new Forms();
             formulario.Show();
 
         }

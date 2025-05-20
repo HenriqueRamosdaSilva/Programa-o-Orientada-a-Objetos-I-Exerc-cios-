@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace WinFormsAppAula08
 {
-    public partial class Form2 : Form
+    public partial class Produtos : Form
     {
-        public Form2()
+        public Produtos()
         {
             InitializeComponent();
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
         {
 
         }

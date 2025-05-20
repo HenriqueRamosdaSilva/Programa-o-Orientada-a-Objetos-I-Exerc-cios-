@@ -1,6 +1,6 @@
 ﻿namespace WinFormsAppAula08
 {
-    partial class Form2
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -35,21 +35,22 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 32F);
-            label1.Location = new Point(294, 9);
+            label1.Location = new Point(306, 9);
             label1.Name = "label1";
-            label1.Size = new Size(173, 59);
-            label1.TabIndex = 2;
-            label1.Text = "Clientes";
+            label1.Size = new Size(160, 59);
+            label1.TabIndex = 1;
+            label1.Text = "Vendas";
             label1.Click += label1_Click;
             // 
-            // Form2
+            // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
-            Name = "Form2";
-            Text = "sss";
+            Name = "Form3";
+            Text = "Form3";
+            Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();
         }
